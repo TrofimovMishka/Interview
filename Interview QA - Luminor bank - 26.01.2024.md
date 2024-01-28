@@ -75,7 +75,7 @@
     - mvn clean install | java -jar target/myapplication-0.0. 1-SNAPSHOT.jar
     - gradle bootRun - using gradle
     
-- **Method missing exception (for example in cjLib package) - during booling:**
+- **Method missing exception (for example in cjLib package) - during starting:**
     - Check class path vesrion of this library using: 
         - mvn help:effective-pom - for check version of dependency, OR in IDE see dependency graph (not shown version)
         - transitive deppendency not shown in effective-pom
