@@ -107,7 +107,7 @@
 
 - **Garbage collector, is the object was deleted if this object contain a reference to itself?**
   - Tracing GC if used - this GC will remove this object
-  - Trace start from GC root: static, threads, class, object from ocal stack
+  - Trace start from GC root: static, threads, class, object from local stack
     
 - **Weak reference, strong or soft references**
     - 
